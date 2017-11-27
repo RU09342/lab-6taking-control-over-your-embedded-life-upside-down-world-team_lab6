@@ -1,3 +1,10 @@
+
+## Open Loop System
+An open loop system is a system in which the output has no influence or effect on the control action of the input signal.  It is also know as non-feedback system  because the output signal is neither measured nor "fed back" to compare with the input signal.  A diagram of an open loop system can be shown below.  The output can only be determined by its present state input.  More errors occur in this type of system.
+
+![](lab-6taking-control-over-your-embedded-life-upside-down-world-team_lab6/Open Loop Systems/OpenLoopSystem.PNG)
+
+
 # Lab 6: Open Loop Systems
 Believe it or not, up to this point, any time that you have wanted to control your LED color or brightness so far, you have been attempting to control an Open Loop System. Basically, when in your code you state that you want a certain brightness or even a duty cycle, you are going on blind faith that the output is actually what it is supposed to be. If something seemed off, you probably went back into the code and tweaked some values. In the case of actual Systems and Control Theory, you are the feedback loop, providing some corrective signal to the system to help obtain a closer output, and we will deal with this in the Milestone. For now, we need to focus on system modeling getting a system to a desirable state. For this lab, you will be attempting to keep a voltage regulator within a specific temperature range using a DC fan which you will have control over. For this part to be a success, you need to figure out what is the minimum fan speed you need to cool off the regulator so that is stays operational.
 
