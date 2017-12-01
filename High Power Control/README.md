@@ -8,5 +8,6 @@ The coil in the relay requires a 1A source (because of its internal resistance) 
 (https://media.giphy.com/media/3osBL3M2GvVHFW9KZa/giphy.gif)
 
 ## MOSFET Switch
-The gif below shows a MOSFET switching 1 LED.  The LED is connected to a 9V source on one end and a power resistor on the other.  The power resistor is being used as the drain of the MOSFET and the source is grounded.  As stated before the microprocessor acts as the gate so not a lot of current is being drawn which protects the microprocessor from the high power voltage.
+The gif below shows a MOSFET switching 1 LED.  The LED is connected to a 9V source on one end and a power resistor on the other.  The power resistor is being used as the drain of the MOSFET and the source is grounded.  The gate of the
+MOSFET is hooked up to the PWM output of the microprocessor. This is ideal, since the gate of the MOSFET draws no current, thus we do not run the risk of damaging our microprocessor. Specifically, a low side switch configuration is used.
 (https://media.giphy.com/media/l1KdbxdB2aTQHak4o/giphy.gif)
