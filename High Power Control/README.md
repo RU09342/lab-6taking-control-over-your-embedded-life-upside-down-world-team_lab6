@@ -21,4 +21,4 @@ Since this circuit will be used extensively in the upcoming labs, a picture of t
 
 ## Code
 
-The code for this part is fairly simple. It is just a standard PWM generation.
+The code for this part is fairly simple. It is just a standard Timer, with increasing frequency, in order to experimentally determine switch speeds.
