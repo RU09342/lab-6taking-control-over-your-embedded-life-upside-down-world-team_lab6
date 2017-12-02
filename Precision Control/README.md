@@ -24,10 +24,10 @@ Next, in order to demonstrate that we can produce 256 discrete voltages, triangl
 
 ## Loading effects
 Finally, the effects of loading the output with a resistor of 100, 1k, 10k, and 100k are examined. The outputs can be seen below:
-![](oscilliscope readings/scope_5.PNG)
-![](/oscilliscope readings/scope_6.png)
-![](oscilliscope readings/scope_7.png)
-![](/oscilliscope readings/scope_8.PNG)
+![]("oscilliscope readings"/scope_5.PNG)
+![](/"oscilliscope readings"/scope_6.png)
+![]("oscilliscope readings"/scope_7.png)
+![](/"oscilliscope readings"/scope_8.PNG)
 
 As the load resistance gets higher, there appears to be less voltage drop across the resistor, as current lessens as the resistance increases.
 
