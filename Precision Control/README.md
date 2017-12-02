@@ -6,16 +6,20 @@ In this project, we are attempting to control the output voltage of the MSP430F5
 
 ## PWM Part 2
 In order to generate an analog voltage from a PWM, a passive low pass filter is constructed. the schematic for this low pass filter can be seen below, followed by the resulting waveform. 
-![](lowpassfiltercircuit.JPG)
-![](lowpassfilteroutput.JPG)
+![](lowpassfiltercircuit.jpg)
+![](lowpassfilteroutput.jpg)
 
 ## R2R DAC 
 Next, a simple implementation of a DAC is done, a resistor to resistor network. The schematic can be seen below:
-![](R2R ladder schematic.JPG)
+![](R2Rladderschematic.jpg)
 Note, that this schematic can be repeated over and over to get as many bits as desired. In this case, we desire an 8 bit DAC, so we add 4 more voltage source and resistor combinations. The outputs to various signals can be seen below:
-![](/oscilliscope readings/scope_12.PNG)
+
+![](osciliscopereadings/scope_12.png)
+
 Output from binary 127.
-![](/oscilliscope readings/scope_13.PNG)
+
+![](osciliscopereadings/scope_13.png)
+
 Output from binary 51.
 
 In order to accomplish this, 8 GPIO pins are set, and each pin acts as a different bit in the binary number.
