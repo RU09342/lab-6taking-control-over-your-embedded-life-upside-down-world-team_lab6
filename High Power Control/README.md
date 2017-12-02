@@ -6,16 +6,16 @@ Relays are perfect for being a load on a high voltage circuit.  The relay shown 
 The coil in the relay requires a 1A source (because of its internal resistance) to change the switch.  A MOSFET is used to drive the relay, since we did not want current going into/out of the processor. Experimentally, it is determined that the maximum switching speed of the relay is around 90-110 Hz.
 Once it reaches these speeds, the coil does not actually switch, and stays locked on one side of the relay.
 
-(https://media.giphy.com/media/l1KdbxdB2aTQHak4o/giphy.gif)
+![](https://media.giphy.com/media/l1KdbxdB2aTQHak4o/giphy.gif)
 
 ## MOSFET Switch
 An NMOS transistor is used as a low side switch. The circuit configuration can be seen below:
 
-(lowsideswitchschematic.PNG)
+![](lowsideswitchschematic.PNG)
 
 The simulation results for this set up can also be seen below:
 
-(lowsideswitchsimulation.PNG)
+![](lowsideswitchsimulation.PNG)
 
 Since this circuit will be used extensively in the upcoming labs, a picture of this circuit will be provided in a later exercise.
 
