@@ -6,8 +6,8 @@ In this project, we are attempting to control the output voltage of the MSP430F5
 
 ## PWM Part 2
 In order to generate an analog voltage from a PWM, a passive low pass filter is constructed. the schematic for this low pass filter can be seen below, followed by the resulting waveform. 
-![](lowpassfiltercircuit.jpg)
-![](lowpassfilteroutput.jpg)
+![](lowpassfiltercircuit.png)
+![](lowpassfilteroutput.png)
 
 ## R2R DAC 
 Next, a simple implementation of a DAC is done, a resistor to resistor network. The schematic can be seen below:
