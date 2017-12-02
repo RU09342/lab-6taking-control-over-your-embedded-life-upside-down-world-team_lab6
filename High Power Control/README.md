@@ -19,6 +19,6 @@ The simulation results for this set up can also be seen below:
 
 Since this circuit will be used extensively in the upcoming labs, a picture of this circuit will be provided in a later exercise.
 
-##Code
+## Code
 
 The code for this part is fairly simple. It is just a standard PWM generation.
